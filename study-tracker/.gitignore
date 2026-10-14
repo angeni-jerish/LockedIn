@@ -1,0 +1,25 @@
+# Ignore local environment variable files where secrets live
+.env
+.env.local
+.env.development.local
+
+# Ignore compiled backend folder builds and artifacts
+backend/build/
+backend/.gradle/
+.gradle/
+build/
+.kotlin/
+
+# Ignore log files
+*.log
+
+# Ignore IDE project settings
+.idea/
+
+# Ignore frontend node modules dependencies folder
+node_modules/
+dist/
+
+# Ignore operating system specific metadata files
+.DS_Store
+Thumbs.db
